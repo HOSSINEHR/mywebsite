@@ -1,2 +1,80 @@
-# mywebsite xd
-#hossine reiskarami
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    .post {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .post h2 {
+      margin-top: 0;
+    }
+
+    .post small {
+      color: #777;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Blog</h1>
+    <p>By Hossine Reiskarami</p>
+  </header>
+
+  <div class="container">
+    <div class="post">
+      <h2>First Blog Post</h2>
+      <small>Posted on June 27, 2025</small>
+      <p>This is my first blog post! I'm using this site to share thoughts, ideas, and updates.</p>
+    </div>
+
+    <div class="post">
+      <h2>Another Day, Another Post</h2>
+      <small>Posted on June 26, 2025</small>
+      <p>Today I worked on setting up my GitHub Pages website. It’s pretty cool to publish without a backend!</p>
+    </div>
+
+    <!-- Add more posts below this line -->
+  </div>
+
+  <footer>
+    &copy; 2025 Hossine Reiskarami
+  </footer>
+
+</body>
+</html>
